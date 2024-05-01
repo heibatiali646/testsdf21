@@ -1,0 +1,2 @@
+$(function(){pickupOrder()});function pickupOrder(){$(".checkbox_1").change(function(){this.checked?($("#store_list_wrapper").removeClass("d-none"),$(".store_list_wrapper").addClass("d-flex"),$("#store_list").removeClass("d-none"),$(".radio_ritiro").attr("required","true")):($("#store_list_wrapper").addClass("d-none"),$(".store_list_wrapper").removeClass("d-flex"),$("#store_list").addClass("d-none"),$(".radio_ritiro").removeAttr("required"))})}
+//# sourceMappingURL=/cdn/shop/t/8/assets/custom.js.map?v=80672795080808002331681292929
